@@ -1,0 +1,10 @@
+.backgrounds{
+    background-image:url("../../assets/hellohtml2.png");
+    width: 100%;
+    top: -10px;
+    opacity: 0.5;
+    z-index: 0;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
