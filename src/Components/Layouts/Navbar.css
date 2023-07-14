@@ -1,5 +1,4 @@
-div.borderXwidth a:before, div.borderXwidth a:after
-{
+div.borderXwidth a:before, div.borderXwidth a:after{
     position: absolute;
     opacity: 0;
     width: 0%;
@@ -9,20 +8,17 @@ div.borderXwidth a:before, div.borderXwidth a:after
     transition: all 0.3s;
 }
 
-div.borderXwidth a:before
-{
+div.borderXwidth a:before{
     left: 0px;
     top: 0px;
 }
 
-div.borderXwidth a:after
-{
+div.borderXwidth a:after{
     right: 0px;
     bottom: 0px;
 }
 
-div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
-{
+div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
     opacity: 1;
     width: 100%;
 }

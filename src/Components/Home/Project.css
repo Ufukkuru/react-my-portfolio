@@ -1,3 +1,7 @@
+.project-width{
+  width: 360px;
+}
+
 @media (min-width: 640px) and (max-width: 770px) {
     .sm\:flex {
       flex-wrap: wrap;

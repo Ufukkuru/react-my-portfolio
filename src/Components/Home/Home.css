@@ -11,18 +11,17 @@ h1 , h2{
 }
 
 .font{
-  font-size: 22px;
+  font-size: 24px;
 }
 
-
-  span{
+  .Span-animation{
     position: relative;
     color: #252839;
     -webkit-text-stroke: 0.2vw #1e243d ;
     text-transform: uppercase;
   }
 
-  span::before{
+  .Span-animation::before{
      content: attr(data-text);
      position: absolute;
      top: 0;
@@ -36,14 +35,14 @@ h1 , h2{
      animation: animate 3s linear;
   }
 
-  p{
+  .P-animation{
     position: relative;
     color: #252839;
     -webkit-text-stroke: 0.2vw #1e243d ;
     text-transform: uppercase;
   }
 
-  p::before{
+  .P-animation::before{
      content: attr(data-text);
      position: absolute;
      top: 0;
@@ -84,5 +83,18 @@ h1 , h2{
     }
     100%{
       width: 100%;
+    }
+  }
+
+
+  @media (min-width: 240px) and (max-width: 320px) {
+    .font{
+      font-size: 20px;
+    }
+  }
+
+  @media (min-width: 450px) and (max-width: 639px) {
+    .font{
+      font-size: 30px;
     }
   }
